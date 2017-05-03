@@ -41,6 +41,8 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/bin/updatemiscta:system/bin/updatemiscta \
 	vendor/sony/shinano-common/proprietary/bin/time_daemon:system/bin/time_daemon \
 	vendor/sony/shinano-common/proprietary/bin/wvkbd:system/bin/wvkbd \
+	vendor/sony/shinano-common/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
+	vendor/sony/shinano-common/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
 	vendor/sony/shinano-common/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
 	vendor/sony/shinano-common/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
 	vendor/sony/shinano-common/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
@@ -114,7 +116,14 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
 	vendor/sony/shinano-common/proprietary/etc/permissions/com.sonyericsson.idd.xml:system/etc/permissions/com.sonyericsson.idd.xml \
 	vendor/sony/shinano-common/proprietary/etc/permissions/platform.xml:system/etc/permissions/platform.xml \
+	vendor/sony/shinano-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
+	vendor/sony/shinano-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
 	vendor/sony/shinano-common/proprietary/framework/com.sonyericsson.idd.jar:system/framework/com.sonyericsson.idd.jar \
+	vendor/sony/shinano-common/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
+	vendor/sony/shinano-common/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
+	vendor/sony/shinano-common/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
+	vendor/sony/shinano-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
+	vendor/sony/shinano-common/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
 	vendor/sony/shinano-common/proprietary/lib/camera/libexcal_cam_ctrl_plugin.so:system/lib/camera/libexcal_cam_ctrl_plugin.so \
 	vendor/sony/shinano-common/proprietary/lib/camera/libexcal_cap_ctrl_plugin.so:system/lib/camera/libexcal_cap_ctrl_plugin.so \
 	vendor/sony/shinano-common/proprietary/lib/camera/libexcal_color_ctrl_plugin.so:system/lib/camera/libexcal_color_ctrl_plugin.so \
